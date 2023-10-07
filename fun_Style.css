@@ -1,0 +1,17 @@
+body{
+    background-color: black;
+}
+.blue{
+    color: blue;
+    font-size: 50px;
+}
+.green{
+    color: green;
+    font-size: 30px;
+}
+.red{
+    font-family:'Courier New', Courier, monospace;
+    font-size: 80px;
+    color: red;
+}
+

@@ -1,0 +1,100 @@
+body{
+    font-family: system-ui;
+    display: flex;
+    flex-direction: column;
+    background-image:url("/Google\ Layout/Black.jpg");
+    background-attachment: fixed;
+    background-repeat: repeat-y;
+    background-size: 100%;
+    color: White;
+    min-height: 100vh;
+}
+.nav-bar ul{
+    display: flex;
+}
+.nav-bar ul li{
+    list-style: none;
+    padding-right: 10px;
+}
+.nav-bar{
+    position: fixed;
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+}
+
+.nav-logo{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.logo img{
+    width: 300px;
+    height: auto;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 100px;
+}
+.main form{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    align-items: center;
+}
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.search{
+    width: 400px;
+    height: 40px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    font-family: system-ui;
+    padding-left: 20px;
+    flex-grow: 1;
+}
+hr{
+    color: white;
+    width: 100%;
+}
+.g-btn{
+    width: 150px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: #343a40;
+    color: white;
+    font-family: system-ui;
+    margin-left: 10px;
+}
+nav,footer{
+    flex-shrink: 0;
+}
+section{
+    flex-grow: 1;
+}
+footer ul{
+    display: flex;
+    padding-left: 10px;
+}
+footer ul li{
+    list-style: none;
+    padding-left: 10px;
+}
+footer{
+    display: flex;
+    flex-direction: column;
+}
+.footer{
+    display: flex;
+    height: 10px;
+    justify-content: flex-start;
+    align-items: center;
+}
+

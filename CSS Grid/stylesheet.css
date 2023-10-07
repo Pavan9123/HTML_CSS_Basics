@@ -1,0 +1,35 @@
+body{
+    padding:0px;
+    margin: 0px;
+}
+.grid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 40px 100vh 30px 30px;
+    grid-template-areas: 
+    "head head side"
+    "main main main"
+    "footer footer footer"
+    "footer footer footer"
+    ;
+}
+.header{
+    background-color: black;
+    color: white;
+    grid-area: head;
+}
+.main{
+    background-color: lightskyblue;
+    grid-area: main;
+}
+.side{
+    background-color: darkgrey;
+    color: white;
+    grid-area: side;
+    
+}
+.footer{
+    background-color: black;
+    color: white;
+    grid-area: footer;
+}
